@@ -65,22 +65,30 @@ plt.scatter(df4["Annual Income (k$)"],df4["Spending Score (1-100)"],c="purple",l
 plt.legend()
 plt.title("Customer Segments")
 
+
+
 ```
 
 ## Output:
+
 ### data.head()
 ![image](https://github.com/SASIDEVIvenaram/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118707332/9971b429-8cab-4771-8ca6-7838f3c65f4a)
+
 ### data.info()
 ![image](https://github.com/SASIDEVIvenaram/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118707332/b8095eb8-0052-4960-9131-f86efbcd0a6b)
+
 ### data.isnull().sum()
 ![image](https://github.com/SASIDEVIvenaram/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118707332/1cba5dd7-add5-4447-a583-f94c3ecb9544)
+
 ### Elbow method Graph:
 ![image](https://github.com/SASIDEVIvenaram/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118707332/f8672a42-8a36-4533-9b17-211ef3df8d75)
 
 ### KMeans clusters:
 ![image](https://github.com/SASIDEVIvenaram/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118707332/f9cddd23-2ac6-4224-ae53-36b624aa24c1)
+
 ### y_pred:
 ![image](https://github.com/SASIDEVIvenaram/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118707332/023e535f-e98e-489a-8282-a19c34f16e0a)
+
 ### Customer segments Graph:
 ![image](https://github.com/SASIDEVIvenaram/Implementation-of-K-Means-Clustering-for-Customer-Segmentation/assets/118707332/8c4b5eb2-29c3-4864-9809-019f3f596331)
 
